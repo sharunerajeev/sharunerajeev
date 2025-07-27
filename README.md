@@ -1,27 +1,24 @@
 ![Sharun](https://user-images.githubusercontent.com/54183649/137182966-1ec794e8-59d6-4a74-ab4e-22bcb0cd7b9a.gif)
 
-[![Website Badge](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://sharunrajeev.github.io/Profile-page-frontend/)
+<!-- [![Website Badge](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://sharunrajeev.github.io/Profile-page-frontend/) -->
 [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sharun_rajeev)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sharunerajeev/)
-[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sharun_rajeev/)
 [![Figma Badge](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/@sharun)
 
-
-Hi there 👋! \
+Hi there 👋!  
 I'm Sharun, Developer at Tata Consultancy Services. I am a self taught Full Stack Developer, currently working on my own projects. I am passionate about building things that live on the internet, and I love learning about new technologies and how to make them work for the good of the web.
 
 - 🔭 I’m currently working on Personal Webpage. 
-- 🌱 I’m currently learning Next.js, Flutter.
-- 🤔 I’m looking for help with starting a blog.
-- 💬 Ask me about Python or C++
-- 📫 How to reach me: [@sharun_rajeev](https://twitter.com/sharun_rajeev)
+- 🌱 I’m currently learning Azure and Gen AI tools.
+- 💬 Ask me about Python or JavaScript.
+- 📫 How to reach me: [@sharun_rajeev](https://x.com/sharun_rajeev)
 
 ## 📈 GitHub Status
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sharunrajeev&layout=compact)](https://github.com/sharunrajeev)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sharunerajeev&layout=compact)](https://github.com/sharunerajeev)
 
-![Sharun's GitHub stats](https://github-readme-stats.vercel.app/api?username=sharunrajeev&show_icons=true&theme=default)
+![Sharun's GitHub stats](https://github-readme-stats.vercel.app/api?username=sharunerajeev&show_icons=true&theme=default)
 
-[![Sharun's wakatime stats](https://github-readme-streak-stats.herokuapp.com/?user=sharunrajeev)](https://wakatime.com/@sharunrajeev)
+[![Sharun's wakatime stats](https://github-readme-streak-stats.herokuapp.com/?user=sharunerajeev)](https://wakatime.com/@sharunrajeev)
 
 <!-- ## 💻 Coding Time
 [![Sharun's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sharunrajeev)](https://wakatime.com/@sharunrajeev) -->
@@ -58,18 +55,3 @@ I'm Sharun, Developer at Tata Consultancy Services. I am a self taught Full Stac
 ![AdobeXD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 ![Udemy](https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white)
 ![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)
-
-<!--
-**sharunerajeev/sharunerajeev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
