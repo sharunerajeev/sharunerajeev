@@ -18,7 +18,7 @@ I'm Sharun, Developer at Tata Consultancy Services. I am a self taught Full Stac
 
 ![Sharun's GitHub stats](https://github-readme-stats.vercel.app/api?username=sharunerajeev&show_icons=true&theme=default)
 
-[![Sharun's wakatime stats](https://github-readme-streak-stats.herokuapp.com/?user=sharunerajeev)](https://wakatime.com/@sharunrajeev)
+[![Sharun's wakatime stats](https://github-readme-streak-stats.herokuapp.com/?user=sharunerajeev)](https://wakatime.com/@sharunerajeev)
 
 <!-- ## 💻 Coding Time
 [![Sharun's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sharunrajeev)](https://wakatime.com/@sharunrajeev) -->
