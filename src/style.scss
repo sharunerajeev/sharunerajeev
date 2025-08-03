@@ -1,0 +1,222 @@
+// Theme definitions
+// Light theme:
+$light-theme: (
+  primary-bg-color: #c6a15b,
+  secondary-bg-color: #ade25d,
+  primary-text-color: #121420,
+  secondary-text-color: #a38560,
+);
+
+// Dark theme:
+$dark-theme: (
+  primary-bg-color: #121420,
+  secondary-bg-color: #1b2432,
+  primary-text-color: #c8d5b9,
+  secondary-text-color: #dbdbdb,
+);
+
+$theme: $light-theme !default;
+
+@function theme-color($key) {
+  @return map-get($theme, $key);
+}
+
+@media (prefers-color-scheme: dark) {
+  $theme: $dark-theme !global;
+  body {
+    background-color: theme-color(secondary-bg-color);
+    color: theme-color(primary-bg-color);
+  }
+}
+
+// Font variables
+$font-family: 'Libre Franklin', sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// Common mixins
+@mixin flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  background-color: theme-color(primary-bg-color);
+}
+
+// Main container
+#home {
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Header Time (standalone)
+.header-time {
+  display: block;
+  margin: 2rem auto 0 auto;
+  max-width: 90vw;
+  color: theme-color(secondary-text-color);
+  font-size: 1.1rem;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.04em;
+  padding: 0.25em 1.5em;
+  border-radius: 0.75em;
+  /* No background for clean look */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition:
+    transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s;
+  cursor: pointer;
+  user-select: none;
+}
+.header-time:hover,
+.header-time:focus {
+  transform: scale(1.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+// Content
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(40px);
+  transition:
+    opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  &.content-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  > div:first-child {
+    width: 110vw; // Make it wider than the viewport
+    max-width: none;
+    color: theme-color(primary-text-color);
+    font-size: clamp(1.2rem, 10vw, 2.5rem);
+    font-weight: $font-weight-bold;
+    word-break: keep-all;
+    word-wrap: normal;
+    margin-bottom: 0.2rem;
+    text-align: center;
+  }
+
+  > div:last-child {
+    color: theme-color(secondary-text-color);
+    font-size: clamp(0.75rem, 10vw, 1rem);
+    font-weight: $font-weight-normal;
+    @include flex-center-column;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Down Arrow
+.down-arrow {
+  rotate: 180deg; // Rotate the arrow to point down
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  // Style the SVG inside the img (when using <img src="...svg">)
+  // For color to apply, the SVG file must use fill="currentColor" or stroke="currentColor".
+  img {
+    display: block;
+    width: 1em;
+    height: 1em;
+    /* No filter needed if SVG uses currentColor */
+    transition: filter 0.3s;
+  }
+
+  &:hover {
+    color: theme-color(primary-text-color);
+  }
+  &:active {
+    color: theme-color(secondary-bg-color);
+  }
+}
+
+// Bottom Navigation Bar
+.bottom-nav {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 90vw;
+  max-width: 600px;
+  background: theme-color(primary-bg-color);
+  border-radius: 1.5em 1.5em 0 0;
+  box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0.5em 1em 0.5em 1em;
+  z-index: 100;
+  transition: bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  // Partially hidden by default
+  bottom: -2.5em;
+  opacity: 0.85;
+  &:hover,
+  &.open {
+    bottom: 0;
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+.bottom-nav .nav-btn {
+  background: theme-color(secondary-bg-color);
+  color: theme-color(primary-text-color);
+  border: none;
+  border-radius: 1em;
+  margin: 0 0.5em;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  font-family: $font-family;
+  font-weight: $font-weight-bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition:
+    background 0.2s,
+    color 0.2s,
+    transform 0.2s;
+  cursor: pointer;
+}
+.bottom-nav .nav-btn:hover,
+.bottom-nav .nav-btn:focus {
+  background: theme-color(primary-text-color);
+  color: theme-color(primary-bg-color);
+  transform: translateY(-2px) scale(1.08);
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  // removed .header > div, not needed
+  .content > div:first-child {
+    font-size: clamp(1.5rem, 8vw, 4rem);
+  }
+  .content > div:last-child {
+    font-size: clamp(1rem, 4vw, 1.5rem);
+  }
+}

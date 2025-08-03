@@ -1,0 +1,23 @@
+{
+  "name": "sharunerajeev-personal-website",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bunx vite",
+    "build": "bunx vite build",
+    "preview": "bunx vite preview",
+    "deploy": "bunx vite build && bunx gh-pages -d dist",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "motion": "^12.23.12"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "prettier": "^3.6.2",
+    "sass": "^1.70.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
