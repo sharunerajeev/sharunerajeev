@@ -1,6 +1,7 @@
 ![Sharun](https://user-images.githubusercontent.com/54183649/137182966-1ec794e8-59d6-4a74-ab4e-22bcb0cd7b9a.gif)
 
 <!-- [![Website Badge](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://sharunrajeev.github.io/Profile-page-frontend/) -->
+
 [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sharun_rajeev)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sharunerajeev/)
 [![Figma Badge](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/@sharun)
@@ -8,12 +9,13 @@
 Hi there 👋!  
 I'm Sharun, Developer at Tata Consultancy Services. I am a self taught Full Stack Developer, currently working on my own projects. I am passionate about building things that live on the internet, and I love learning about new technologies and how to make them work for the good of the web.
 
-- 🔭 I’m currently working on Personal Webpage. 
+- 🔭 I’m currently working on Personal Webpage.
 - 🌱 I’m currently learning Azure and Gen AI tools.
 - 💬 Ask me about Python or JavaScript.
 - 📫 How to reach me: [@sharun_rajeev](https://x.com/sharun_rajeev)
 
 ## 📈 GitHub Status
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sharunerajeev&layout=compact)](https://github.com/sharunerajeev)
 
 ![Sharun's GitHub stats](https://github-readme-stats.vercel.app/api?username=sharunerajeev&show_icons=true&theme=default)
@@ -24,6 +26,7 @@ I'm Sharun, Developer at Tata Consultancy Services. I am a self taught Full Stac
 [![Sharun's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sharunrajeev)](https://wakatime.com/@sharunrajeev) -->
 
 ## 🧠 Skills
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS#](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
